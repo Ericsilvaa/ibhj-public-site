@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "clean": "rm -rf .next node_modules .turbo && rm -f package-lock.json && npm install",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
@@ -33,9 +35,9 @@
     "eslint-plugin-react": "^7.37.5",
     "globals": "^16.0.0",
     "postcss": "^8.5.3",
-"eslint": "^8.57.0",
-"eslint-plugin-tailwindcss": "^3.18.0",
-"tw-animate-css": "^1.3.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-tailwindcss": "^3.18.0",
+    "tw-animate-css": "^1.3.0",
     "eslint-config-next": "15.2.4",
     "prettier": "^3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.11",
