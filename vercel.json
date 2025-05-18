@@ -1,0 +1,12 @@
+{
+  "branches": {
+    "production-ibhj": {
+      "alias": ["ibhj-site.vercel.app"], 
+      "environment": "production"
+    }
+  },
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "ignoreCommand": "echo 'No changes to deploy'"
+}
