@@ -3,6 +3,14 @@
   "outputDirectory": ".next",
   "framework": "nextjs",
   "ignoreCommand": "echo 'No changes to deploy'",
+  "github": {
+    "enabled": true,
+    "productionBranch": "production-ibhj"
+  },
+  "git": {
+    "branch": "production-ibhj"
+  },
+  "routes": [],
   "rewrites": [],
   "redirects": [],
   "headers": []
