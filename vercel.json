@@ -10,7 +10,6 @@
   "git": {
     "branch": "production-ibhj"
   },
-  "routes": [],
   "rewrites": [],
   "redirects": [],
   "headers": []
