@@ -19,14 +19,14 @@ export const PASTORES_IBHJ: PastorProfile[] = [
     name: "Pr. Jorge Henrique",
     role: "Pastor Auxiliar",
     image: "/images/pessoas/pastor-jorge.jpg",
-    bio: "Com um ministério voltado para o discipulado e evangelismo, o Pastor Jorge Henrique contribui significativamente para o crescimento espiritual da nossa comunidade.",
+    bio: "Atua na área de ensino e discipulado, com ênfase na formação bíblica de novos membros e líderes. Também lidera os jovens e o podcast da igreja.",
     delay: 0.1,
   },
   {
     name: "Pr. Rafael Vasconcelos",
     role: "Pastor Auxiliar",
     image: "/images/pessoas/pastor-rafael.jpg",
-    bio: "Atua na área de ensino e discipulado, com ênfase na formação bíblica de novos membros e líderes. Também lidera os jovens e o podcast da igreja.",
+    bio: "Com um ministério voltado para o discipulado e evangelismo, contribui para o crescimento espiritual da nossa comunidade.",
     delay: 0.2,
   },
 ];
