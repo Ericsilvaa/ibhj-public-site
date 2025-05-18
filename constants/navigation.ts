@@ -8,8 +8,8 @@ import {
 export const NAVIGATION: NavigationItem[] = [
   { name: "Início", href: "/" },
   { name: "Quem Somos", href: "/quem-somos" },
-  // { name: "Ministérios", href: "/ministerios" },
-  // { name: "Programação", href: "/programacao" },
+  { name: "Ministérios", href: "/ministerios" },
+  { name: "Programação", href: "/programacao" },
   // { name: "Galeria", href: "/galeria" },
   // { name: "Blog", href: "/blog" },
   { name: "Mídias", href: "/midia" },
