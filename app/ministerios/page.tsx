@@ -1,7 +1,7 @@
 import type React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Users, Heart, Music, Book, Globe, Baby, User } from "lucide-react";
+import { Users, Heart, Music, Globe, User } from "lucide-react";
 
 interface MinisterioCardProps {
   title: string;
@@ -56,19 +56,26 @@ export default function Ministerios() {
       imageUrl: "/images/ministerios/embaixadores-rei.jpg",
     },
     {
-      title: "Mensageiras do Rei",
-      description:
-        "Programa para meninas de 9 a 17 anos, com ênfase em valores cristãos, serviço e desenvolvimento espiritual.",
-      icon: <User className="h-5 w-5" />,
-      // imageUrl: "/images/ministerios/mensageiras-rei.jpg",
-      imageUrl: "/images/banners/logoI-ibhj-com-nome.jpg",
-    },
-    {
       title: "Grupo de Jovens - Unijovem",
       description:
         "Espaço para jovens crescerem na fé, desenvolverem relacionamentos saudáveis e descobrirem seus dons.",
       icon: <Users className="h-5 w-5" />,
-      imageUrl: "/images/banners/logoI-ibhj-com-nome.jpg",
+      imageUrl: "/images/ministerios/jovens-encontro-1.jpg",
+    },
+    {
+      title: "Mensageiras do Rei",
+      description:
+        "Programa para meninas de 9 a 17 anos, com ênfase em valores cristãos, serviço e desenvolvimento espiritual.",
+      icon: <User className="h-5 w-5" />,
+      imageUrl: "/images/ministerios/mensageiras-rei.jpg",
+    },
+
+    {
+      title: "Evangelismo e Missões",
+      description:
+        "Alcançando a comunidade local e apoiando missões nacionais e internacionais com o evangelho.",
+      icon: <Globe className="h-5 w-5" />,
+      imageUrl: "/images/ministerios/missoes-e-evangelismo.jpg",
     },
     {
       title: "Ministério de Música",
@@ -82,20 +89,6 @@ export default function Ministerios() {
       description:
         "Apoio e fortalecimento das famílias através de encontros, aconselhamento e estudos bíblicos.",
       icon: <Heart className="h-5 w-5" />,
-      imageUrl: "/images/banners/logoI-ibhj-com-nome.jpg",
-    },
-    // {
-    //   title: "Ensino (EBD, Discipulado)",
-    //   description:
-    //     "Foco no ensino bíblico sistemático através da Escola Bíblica Dominical e programas de discipulado.",
-    //   icon: <Book className="h-5 w-5" />,
-    //   imageUrl: "/placeholder.svg?height=300&width=500",
-    // },
-    {
-      title: "Evangelismo e Missões",
-      description:
-        "Alcançando a comunidade local e apoiando missões nacionais e internacionais com o evangelho.",
-      icon: <Globe className="h-5 w-5" />,
       imageUrl: "/images/banners/logoI-ibhj-com-nome.jpg",
     },
   ];
