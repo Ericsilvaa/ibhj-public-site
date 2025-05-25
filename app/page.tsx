@@ -269,12 +269,12 @@ export default function Home() {
                 label="Ministérios"
                 description="Do louvor à ação social, com propósito e paixão."
               />
-              <StatCard
+              {/* <StatCard
                 icon={HeartHandshake}
-                number="8"
+                number="1"
                 label="Projetos Sociais"
                 description="Atendendo necessidades reais com compaixão e presença."
-              />
+              /> */}
             </StaggerChildren>
           </div>
         </div>
@@ -531,9 +531,7 @@ export default function Home() {
               <div>
                 <h2 className="section-title mb-6">Como nos Encontrar</h2>
                 <p className="text-gray-700 mb-6">
-                  Estamos localizados no bairro Henrique Jorge, em Fortaleza-CE,
-                  com fácil acesso por transporte público e amplo
-                  estacionamento.
+                  Estamos localizados no bairro Henrique Jorge, em Fortaleza-CE.
                 </p>
                 <div className="space-y-4 mb-6">
                   <div className="flex items-start">
