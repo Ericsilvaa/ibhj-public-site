@@ -60,7 +60,7 @@ export default function Ministerios() {
       description:
         "Espaço para jovens crescerem na fé, desenvolverem relacionamentos saudáveis e descobrirem seus dons.",
       icon: <Users className="h-5 w-5" />,
-      imageUrl: "/images/ministerios/jovens-encontro-1.jpg",
+      imageUrl: "/images/ministerios/jovens-encontro-2.jpg",
     },
     {
       title: "Mensageiras do Rei",
