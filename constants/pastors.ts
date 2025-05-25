@@ -1,5 +1,3 @@
-// constants/pastores.ts
-
 export interface PastorProfile {
   name: string;
   role: string;
@@ -19,14 +17,14 @@ export const PASTORES_IBHJ: PastorProfile[] = [
     name: "Pr. Jorge Henrique",
     role: "Pastor Auxiliar",
     image: "/images/pessoas/pastor-jorge.jpg",
-    bio: "Atua na área de ensino e discipulado, com ênfase na formação bíblica de novos membros e líderes. Também lidera os jovens e o podcast da igreja.",
+    bio: "Coordenador do Ministério de Formação Cristã, faz parte do Ministério de Ética da igreja e atua diretamente com os jovens. Dedica-se especialmente ao ensino das Escrituras e à formação bíblica da igreja. É idealizador do treinamento de vocacionados da igreja.",
     delay: 0.1,
   },
   {
     name: "Pr. Rafael Vasconcelos",
     role: "Pastor Auxiliar",
     image: "/images/pessoas/pastor-rafael.jpg",
-    bio: "Com um ministério voltado para o discipulado e evangelismo, contribui para o crescimento espiritual da nossa comunidade.",
+    bio: "Atua nos ministérios de Evangelismo, Discipulado e Ministério da Família. É idealizador do treinamento de Aconselhamento Bíblico, tem ênfase especial em missões e acompanha o projeto Espaço Voar da igreja, contribuindo para o crescimento espiritual e o fortalecimento da comunidade.",
     delay: 0.2,
   },
 ];
