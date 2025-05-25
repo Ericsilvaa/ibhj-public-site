@@ -53,20 +53,20 @@ export const churchEvents: CalendarEvent[] = [
   ...Array.from({ length: 4 }, (_, i) => {
     const date = new Date(currentYear, currentMonth, (i + 1) * 7 + 6); // Sábados do mês atual
     return [
-      {
-        id: `coral-${date.toISOString()}`,
-        title: "Ensaio do Coral",
-        date: new Date(date.setHours(16, 0, 0, 0)),
-        time: "16h00",
-        location: "Sala de Música",
-        category: "Regular",
-      },
+      // {
+      //   id: `coral-${date.toISOString()}`,
+      //   title: "Ensaio do Coral",
+      //   date: new Date(date.setHours(16, 0, 0, 0)),
+      //   time: "16h00",
+      //   location: "Sala de Música",
+      //   category: "Regular",
+      // },
       {
         id: `jovens-${date.toISOString()}`,
         title: "Encontro de Jovens",
         date: new Date(date.setHours(19, 0, 0, 0)),
         time: "19h00",
-        location: "Salão Social",
+        location: "Templo",
         category: "Regular",
         description:
           "Encontro semanal dos jovens com louvor, estudo bíblico e comunhão.",
@@ -75,18 +75,18 @@ export const churchEvents: CalendarEvent[] = [
   }).flat(),
 
   // Eventos especiais
-  {
-    id: "aniversario-igreja",
-    title: "Celebração de Aniversário da Igreja",
-    date: createDate(currentYear, currentMonth, 25),
-    time: "19h00",
-    location: "Templo Principal",
-    description:
-      "Celebração especial pelos 55 anos da Igreja Batista de Henrique Jorge.",
-    category: "Especial",
-    attendees: 350,
-    url: "/eventos/aniversario-igreja",
-  },
+  // {
+  //   id: "aniversario-igreja",
+  //   title: "Celebração de Aniversário da Igreja",
+  //   date: createDate(currentYear, currentMonth, 25),
+  //   time: "19h00",
+  //   location: "Templo Principal",
+  //   description:
+  //     "Celebração especial pelos 55 anos da Igreja Batista de Henrique Jorge.",
+  //   category: "Especial",
+  //   attendees: 350,
+  //   url: "/eventos/aniversario-igreja",
+  // },
   {
     id: "conferencia-familia",
     title: "Conferência de Família",
@@ -118,7 +118,7 @@ export const churchEvents: CalendarEvent[] = [
     endDate: createDate(currentYear, currentMonth, 20),
     time: "07h00",
     location: "Sítio Betel",
-    description: "Retiro anual dos jovens com o tema 'Firmes na Fé'.",
+    description: "Retiro anual dos jovens com o tema 'Inconformados'.",
     category: "Especial",
     attendees: 80,
     url: "/eventos/retiro-jovens",
