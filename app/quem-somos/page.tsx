@@ -79,7 +79,6 @@ export default function QuemSomos() {
         overlayOpacity={0.7}
         speed={0.4}
       />
-
       {/* Missão, Visão e Valores */}
       <section className="py-16 bg-surface">
         <div className="container-custom">
@@ -156,56 +155,6 @@ export default function QuemSomos() {
       >
         <div className="container-custom py-16">
           <h2 className="section-title text-center mb-12">Nossos Pastores</h2>
-
-          {/* <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <FadeInSection direction="up">
-              <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="relative h-80">
-                  <Image
-                    src="/images/pessoas/pastor-abraao.jpg"
-                    alt="Pastor Abraão Guimarães de Aquino"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-primary mb-1">
-                    Pr. Abraão Guimarães de Aquino
-                  </h3>
-                  <p className="text-gray-600 mb-4">Pastor Titular</p>
-                  <p className="text-gray-700">
-                    Liderando nossa igreja com sabedoria e dedicação, o Pastor
-                    Abraão tem um coração para o ensino da Palavra e o cuidado
-                    pastoral.
-                  </p>
-                </div>
-              </div>
-            </FadeInSection>
-
-            <FadeInSection direction="up" delay={0.1}>
-              <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="relative h-80">
-                  <Image
-                    src="/images/pessoas/pastor-jorge.jpg"
-                    alt="Pastor Jorge Henrique"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-primary mb-1">
-                    Pr. Jorge Henrique
-                  </h3>
-                  <p className="text-gray-600 mb-4">Pastor Auxiliar</p>
-                  <p className="text-gray-700">
-                    Com um ministério voltado para o discipulado e evangelismo,
-                    o Pastor Jorge Henrique contribui significativamente para o
-                    crescimento espiritual da nossa comunidade.
-                  </p>
-                </div>
-              </div>
-            </FadeInSection>
-          </div> */}
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             {PASTORES_IBHJ.map((pastor, index) => (
               <FadeInSection

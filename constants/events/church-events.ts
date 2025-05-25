@@ -57,14 +57,14 @@ export const churchEvents: CalendarEvent[] = [
   ...Array.from({ length: 4 }, (_, i) => {
     const date = new Date(currentYear, currentMonth, (i + 1) * 7 + 6);
     return [
-      {
-        id: `coral-${date.toISOString()}`,
-        title: EVENT_LABELS.CORAL,
-        date: new Date(date.setHours(16, 0, 0, 0)),
-        time: EVENT_TIMES.CORAL,
-        location: EVENT_LOCATIONS.SALA_MUSICA,
-        category: EVENT_CATEGORIES.REGULAR,
-      },
+      // {
+      //   id: `coral-${date.toISOString()}`,
+      //   title: EVENT_LABELS.CORAL,
+      //   date: new Date(date.setHours(16, 0, 0, 0)),
+      //   time: EVENT_TIMES.CORAL,
+      //   location: EVENT_LOCATIONS.SALA_MUSICA,
+      //   category: EVENT_CATEGORIES.REGULAR,
+      // },
       {
         id: `jovens-${date.toISOString()}`,
         title: EVENT_LABELS.JOVENS,
@@ -73,23 +73,23 @@ export const churchEvents: CalendarEvent[] = [
         location: EVENT_LOCATIONS.SALAO_SOCIAL,
         category: EVENT_CATEGORIES.REGULAR,
         description:
-          "Encontro semanal dos jovens com louvor, estudo bíblico e comunhão.",
+          "Encontro dos jovens com louvor, estudo bíblico e comunhão.",
       },
     ];
   }).flat(),
 
   // Especiais
-  {
-    id: "aniversario-igreja",
-    title: EVENT_LABELS.ANIVERSARIO,
-    date: createDate(currentYear, currentMonth, 25),
-    time: EVENT_TIMES.CULTO_MULHERES,
-    location: EVENT_LOCATIONS.TEMPLO,
-    description: "Celebração especial pelos 55 anos da igreja.",
-    category: EVENT_CATEGORIES.ESPECIAL,
-    attendees: 350,
-    url: "/eventos/aniversario-igreja",
-  },
+  // {
+  //   id: "aniversario-igreja",
+  //   title: EVENT_LABELS.ANIVERSARIO,
+  //   date: createDate(currentYear, currentMonth, 25),
+  //   time: EVENT_TIMES.CULTO_MULHERES,
+  //   location: EVENT_LOCATIONS.TEMPLO,
+  //   description: "Celebração especial pelos 55 anos da igreja.",
+  //   category: EVENT_CATEGORIES.ESPECIAL,
+  //   attendees: 350,
+  //   url: "/eventos/aniversario-igreja",
+  // },
   {
     id: "conferencia-familia",
     title: EVENT_LABELS.CONFERENCIA,
@@ -124,17 +124,17 @@ export const churchEvents: CalendarEvent[] = [
     attendees: 80,
     url: "/eventos/retiro-jovens",
   },
-  {
-    id: "culto-mulheres",
-    title: EVENT_LABELS.CULTO_MULHERES,
-    date: createDate(currentYear, currentMonth, 12),
-    time: EVENT_TIMES.CULTO_MULHERES,
-    location: EVENT_LOCATIONS.TEMPLO,
-    description: "Culto especial do ministério de mulheres.",
-    category: EVENT_CATEGORIES.ESPECIAL,
-    attendees: 120,
-    url: "/eventos/culto-mulheres",
-  },
+  // {
+  //   id: "culto-mulheres",
+  //   title: EVENT_LABELS.CULTO_MULHERES,
+  //   date: createDate(currentYear, currentMonth, 12),
+  //   time: EVENT_TIMES.CULTO_MULHERES,
+  //   location: EVENT_LOCATIONS.TEMPLO,
+  //   description: "Culto especial do ministério de mulheres.",
+  //   category: EVENT_CATEGORIES.ESPECIAL,
+  //   attendees: 120,
+  //   url: "/eventos/culto-mulheres",
+  // },
 ];
 
 // Funções auxiliares

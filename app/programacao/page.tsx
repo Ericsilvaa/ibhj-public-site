@@ -72,13 +72,19 @@ export default function Programacao() {
       atividade: "Culto de Oração e Estudo",
       horario: "19h30",
     },
-    { dia: "Sábado", atividade: "Ensaio do Coral", horario: "16h00" },
     {
       dia: "Sábado",
-      atividade: "Encontro de Jovens",
-      horario: "19h00",
-      local: "Salão Social",
+      atividade: "Evangelismo no Bairro",
+      horario: "15h30",
+      local: "Bairro do Henrique Jorge",
     },
+    // { dia: "Sábado", atividade: "Ensaio do Coral", horario: "16h00" },
+    // {
+    //   dia: "Sábado",
+    //   atividade: "Encontro de Jovens",
+    //   horario: "19h00",
+    //   local: "Salão Social",
+    // },
   ];
 
   const eventosEspeciais = [
@@ -92,12 +98,6 @@ export default function Programacao() {
       dia: "15/06/2025",
       atividade: "Conferência de Família",
       horario: "19h30",
-    },
-    {
-      dia: "20/07/2025",
-      atividade: "Evangelismo na Praça",
-      horario: "15h00",
-      local: "Praça do Henrique Jorge",
     },
   ];
 
@@ -175,7 +175,15 @@ export default function Programacao() {
               <div className="aspect-video bg-gray-200 rounded-lg">
                 {/* Aqui seria inserido um mapa do Google Maps */}
                 <div className="w-full h-full flex items-center justify-center text-gray-500">
-                  Mapa do Google Maps
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.221389633705!2d-38.59019672627117!3d-3.761930743341028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74bf507396b11%3A0xca2495c0615737df!2sIgreja%20Batista%20-%20Henrique%20Jorge!5e0!3m2!1spt-BR!2sbr!4v1747556033112!5m2!1spt-BR!2sbr"
+                    loading="lazy"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    title="Localização da Igreja Batista de Henrique Jorge"
+                  ></iframe>
                 </div>
               </div>
             </div>
@@ -185,10 +193,10 @@ export default function Programacao() {
                 Informações Importantes
               </h3>
               <ul className="space-y-3">
-                <li className="flex items-start">
+                {/* <li className="flex items-start">
                   <div className="h-2 w-2 rounded-full bg-primary mt-2 mr-2"></div>
                   <span>Temos estacionamento próprio com segurança.</span>
-                </li>
+                </li> */}
                 <li className="flex items-start">
                   <div className="h-2 w-2 rounded-full bg-primary mt-2 mr-2"></div>
                   <span>
@@ -196,12 +204,12 @@ export default function Programacao() {
                     cultos.
                   </span>
                 </li>
-                <li className="flex items-start">
+                {/* <li className="flex items-start">
                   <div className="h-2 w-2 rounded-full bg-primary mt-2 mr-2"></div>
                   <span>
                     Oferecemos tradução em Libras nos cultos de domingo à noite.
                   </span>
-                </li>
+                </li> */}
                 <li className="flex items-start">
                   <div className="h-2 w-2 rounded-full bg-primary mt-2 mr-2"></div>
                   <span>

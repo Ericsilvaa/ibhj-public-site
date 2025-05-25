@@ -6,12 +6,12 @@ export const EVENT_CATEGORIES = {
 } as const;
 
 export const EVENT_LOCATIONS = {
-  TEMPLO: "Templo Principal",
+  TEMPLO: "Templo",
   SALA_MUSICA: "Sala de Música",
   SALAO_SOCIAL: "Salão Social",
   SALAS_EBD: "Salas de EBD",
-  PRACA: "Praça do Henrique Jorge",
-  SITIO_BETEL: "Sítio Betel",
+  PRACA: "Henrique Jorge",
+  SITIO_BETEL: "Sítio KeKa",
 } as const;
 
 export const EVENT_TIMES = {

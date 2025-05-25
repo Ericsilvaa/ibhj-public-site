@@ -235,13 +235,8 @@ export default function Home() {
         direction="down"
       >
         <div className="container-custom py-16">
-          {/* <FadeInSection>
-            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center font-heading text-white">
-              55 Anos Cuidando de Vidas em Amor
-            </h2>
-          </FadeInSection> */}
           <FadeInSection>
-            <h2 className="text-3xl md:text-5xl font-extrabold text-center mb-4 ">
+            <h2 className="text-3xl md:text-5xl font-extrabold text-center mb-4 text-white ">
               55 Anos Cuidando de Vidas em Amor
             </h2>
             <p className="text-lg md:text-xl text-center text-white/80 max-w-2xl mx-auto mb-14">
@@ -249,15 +244,6 @@ export default function Home() {
               comunitário e transformação de vidas.
             </p>
           </FadeInSection>
-          {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            <StaggerChildren direction="up" staggerAmount={0.15}>
-              <StatCard number="55+" label="Anos de História" />
-              <StatCard number="350+" label="Membros" />
-              <StatCard number="12" label="Ministérios" />
-              <StatCard number="8" label="Projetos Sociais" />
-            </StaggerChildren>
-           
-          </div> */}
 
           <div className=" md:grid-cols-4 gap-8 max-w-5xl mx-auto">
             <StaggerChildren
@@ -283,12 +269,12 @@ export default function Home() {
                 label="Ministérios"
                 description="Do louvor à ação social, com propósito e paixão."
               />
-              <StatCard
+              {/* <StatCard
                 icon={HeartHandshake}
-                number="8"
+                number="1"
                 label="Projetos Sociais"
                 description="Atendendo necessidades reais com compaixão e presença."
-              />
+              /> */}
             </StaggerChildren>
           </div>
         </div>
@@ -329,7 +315,7 @@ export default function Home() {
       </section>
 
       {/* Testemunhos */}
-      <ParallaxSection
+      {/* <ParallaxSection
         backgroundImage="/images/banners/congregacao-worship.jpg"
         backgroundAlt="Congregação em adoração"
         overlayColor="#f8fafc"
@@ -368,10 +354,10 @@ export default function Home() {
             </FadeInSection>
           </div>
         </div>
-      </ParallaxSection>
+      </ParallaxSection> */}
 
       {/* Blog Recente */}
-      <section className="py-16 bg-white">
+      {/* <section className="py-16 bg-white">
         <div className="container-custom">
           <FadeInSection>
             <div className="flex flex-col md:flex-row md:items-center justify-between mb-12">
@@ -429,10 +415,10 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Galeria de Fotos */}
-      <section className="py-16 bg-surface">
+      {/* <section className="py-16 bg-surface">
         <div className="container-custom">
           <FadeInSection>
             <div className="flex flex-col md:flex-row md:items-center justify-between mb-12">
@@ -461,7 +447,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Novo Visitante */}
       <ParallaxSection
@@ -545,9 +531,7 @@ export default function Home() {
               <div>
                 <h2 className="section-title mb-6">Como nos Encontrar</h2>
                 <p className="text-gray-700 mb-6">
-                  Estamos localizados no bairro Henrique Jorge, em Fortaleza-CE,
-                  com fácil acesso por transporte público e amplo
-                  estacionamento.
+                  Estamos localizados no bairro Henrique Jorge, em Fortaleza-CE.
                 </p>
                 <div className="space-y-4 mb-6">
                   <div className="flex items-start">

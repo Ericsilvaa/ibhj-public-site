@@ -1,14 +1,15 @@
 import type { Config } from "tailwindcss";
 
 const config = {
-  darkMode: ["class", "dark"],
+  darkMode: ["class", "[data-theme='dark']"], // Suporte extra para controle via data-theme
+
   content: [
+    "./app/**/*.{ts,tsx}",
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
-    "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
-    "*.{js,ts,jsx,tsx,mdx}",
   ],
+
   theme: {
     extend: {
       colors: {
@@ -63,11 +64,9 @@ const config = {
           DEFAULT: "oklch(var(--sidebar) / <alpha-value>)",
           foreground: "oklch(var(--sidebar-foreground) / <alpha-value>)",
           primary: "oklch(var(--sidebar-primary) / <alpha-value>)",
-          "primary-foreground":
-            "oklch(var(--sidebar-primary-foreground) / <alpha-value>)",
+          "primary-foreground": "oklch(var(--sidebar-primary-foreground) / <alpha-value>)",
           accent: "oklch(var(--sidebar-accent) / <alpha-value>)",
-          "accent-foreground":
-            "oklch(var(--sidebar-accent-foreground) / <alpha-value>)",
+          "accent-foreground": "oklch(var(--sidebar-accent-foreground) / <alpha-value>)",
           border: "oklch(var(--sidebar-border) / <alpha-value>)",
           ring: "oklch(var(--sidebar-ring) / <alpha-value>)",
         },
@@ -100,7 +99,8 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+
+  plugins: [],
 } satisfies Config;
 
 export default config;

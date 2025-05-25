@@ -8,8 +8,8 @@ import {
 export const NAVIGATION: NavigationItem[] = [
   { name: "Início", href: "/" },
   { name: "Quem Somos", href: "/quem-somos" },
-  // { name: "Ministérios", href: "/ministerios" },
-  // { name: "Programação", href: "/programacao" },
+  { name: "Ministérios", href: "/ministerios" },
+  { name: "Programação", href: "/programacao" },
   // { name: "Galeria", href: "/galeria" },
   // { name: "Blog", href: "/blog" },
   { name: "Mídias", href: "/midia" },
@@ -20,8 +20,8 @@ export const NAVIGATION: NavigationItem[] = [
 export const QUICK_LINKS: NavLinkFooter[] = [
   { name: "Início", href: "/" },
   { name: "Quem Somos", href: "/quem-somos" },
-  // { name: "Ministérios", href: "/ministerios" },
-  // { name: "Programação", href: "/programacao" },
+  { name: "Ministérios", href: "/ministerios" },
+  { name: "Programação", href: "/programacao" },
 ];
 
 export const MORE_LINKS: NavLinkFooter[] = [
